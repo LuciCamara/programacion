@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+	display: flex;
+	justify-content: center;
+	background-color: #88B787;
+
+}
+
+.body{
+	display: flex;
+	justify-content: row;
+	background-color: #B9DAB8 ;
+	min-height: calc(100vh - 120px);
+	padding: 10px 120px;
+
+}
+
+.contenedorF{
+	display: flex;
+	justify-content: center;
+	background-color: #B9DAB8 ;
+	margin-right: 100px;
+	margin-left: 100px;
+
+}
+
+.ingresar{
+	background-color:#88B787 ;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	width: 80px ;
+}
+.num{
+	width: 35px;
+}
+
+.contenedorM{
+	 display: flex;
+	 flex: 1;
+	 flex-direction: row;
+	 align-items: flex-start;
+	 justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+
+
+}
+
+.limpiadito{
+	display: flex;
+	flex-direction: column;
+	background-color:#A5CCA4;
+	flex: 2;
+	align-items: center;
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	border-radius: 50px;
+}
+
+.limpiar{
+	height: 30px;
+	width: 80px ;
+	margin-bottom: 20px;
+	background-color:#88B787 ;
+	border: none;
+	border-radius: 5px;
+}
+
+.Cuadradito{
+	position: relative;
+	background-color: white;
+	border-radius: 8px;
+	padding: 10px 5px;
+	margin: 9px;
+	padding-right: 40px;
+
+}
+
+.Materia span{
+    margin: 10px 15px;
+}
+
+.EliminarMateria{
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    background-color: #79BB6C;
+    border-radius: 50%;
+    padding: 8px 12px;
+    cursor: pointer;
+
+}
+
+.formulario{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #A5CCA4;
+	align-items: center ;
+	flex: 1;
+	border-radius: 50px;
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	width: 500px;
+}
+
+.footer{
+	background-color: #88B787;
+	height: 100px;
+}
+
+
